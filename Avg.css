@@ -1,0 +1,35 @@
+ .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 100px;
+    font-style: italic;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    color: rgba(155, 10, 71, 0.763);
+  }
+  
+  .controls select, .controls input[type="number"], .controls button {
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(155, 10, 71, 0.763);
+  }
+  
+  .controls button {
+    cursor: pointer;
+    color: rgba(155, 10, 71, 0.763);
+  }
+  
+  .numbers {
+    margin-top: 20px;
+  }
+  
+  .numbers h2 {
+    margin-bottom: 10px;
+  }
+  
